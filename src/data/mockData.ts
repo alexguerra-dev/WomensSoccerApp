@@ -45,7 +45,7 @@ export const players: Player[] = [
     name: "Alexia Putellas",
     teamId: "1",
     position: "Midfielder",
-    number: 11,
+    number: 18,
     nationality: "Spain",
     age: 30,
   },

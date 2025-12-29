@@ -31,7 +31,6 @@ export default function App() {
           },
           headerTintColor: "#fff",
           headerTitleStyle: {
-            fontWeight: "bold",
             fontFamily: "OpenDyslexic-Bold",
           },
           headerShown: false,

@@ -1,5 +1,6 @@
 import React from "react";
-import { View, Text, ScrollView, StyleSheet, StatusBar } from "react-native";
+import { View, Text, ScrollView, StyleSheet } from "react-native";
+import { StatusBar } from "expo-status-bar";
 import { LinearGradient } from "expo-linear-gradient";
 import { RouteProp } from "@react-navigation/native";
 import { RootStackParamList } from "../types";
@@ -34,7 +35,7 @@ export default function PlayerProfileScreen({ route }: Props) {
 
   return (
     <ScrollView style={styles.container}>
-      <StatusBar barStyle="light-content" />
+      <StatusBar style="light" />
       <LinearGradient
         colors={["#667eea", "#764ba2", "#f093fb"]}
         start={{ x: 0, y: 0 }}
